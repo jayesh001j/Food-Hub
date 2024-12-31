@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/LOcation"
+        android:icon="@drawable/location"
+        android:title="LOcation" />
+
+    <item
+        android:id="@+id/Addtobag"
+        android:icon="@drawable/addtobag"
+        android:title="Addtobag" />
+
+    <item
+        android:id="@+id/Like"
+        android:icon="@drawable/like"
+        android:title="Like" />
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/notification"
+        android:title="notification" />
+
+</menu>

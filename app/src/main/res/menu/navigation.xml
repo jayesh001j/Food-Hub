@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/my_orders"
+        android:icon="@drawable/my_orders"
+        android:title="My Orders"/>
+
+    <item
+        android:id="@+id/my_profile"
+        android:icon="@drawable/my_profile"
+        android:title="My Profile"/>
+
+    <item
+        android:id="@+id/delivery_address"
+        android:icon="@drawable/delivery_address"
+        android:title="Delivery Address"/>
+
+
+
+    <item
+        android:id="@+id/payment_methods"
+        android:icon="@drawable/payment_methods"
+        android:title="Payment Methods"/>
+
+    <item
+        android:id="@+id/contectus"
+        android:icon="@drawable/contectus"
+        android:title="Contect Us"/>
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/settings"
+        android:title="Settings"/>
+    <item
+        android:id="@+id/helps"
+        android:icon="@drawable/helps"
+        android:title="helps  FAQs"/>
+</menu>

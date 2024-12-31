@@ -1,0 +1,112 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="160.43dp"
+    android:layout_height="250sp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <!-- Image -->
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/your_image" />
+
+
+
+
+        <ImageView
+            android:id="@+id/price"
+            android:layout_width="58.54dp"
+            android:layout_height="28.26dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/price_background"
+            android:padding="4dp"
+            android:text="$5.50"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="@+id/image" />
+
+        <!-- Rating -->
+        <RelativeLayout
+            android:id="@+id/rating_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+            android:layout_marginTop="8dp">
+            <View
+                android:id="@+id/group_17548"
+                android:layout_width="59.55dp"
+                android:layout_height="24.22dp"
+                />
+
+
+
+            <ImageView
+                android:id="@+id/star_icon"
+                android:layout_width="59.55dp"
+                android:layout_height="24.22dp"
+                android:scaleType="centerCrop"
+                android:layout_marginEnd="4dp"
+                android:src="@drawable/ic_star" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/rating"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_toEndOf="@id/star_icon"-->
+<!--                android:text="4.5"-->
+<!--                android:textColor="@android:color/black" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/review_count"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_toEndOf="@id/rating"-->
+<!--                android:layout_marginStart="4dp"-->
+<!--                android:text="(25+)"-->
+<!--                android:textColor="@android:color/darker_gray" />-->
+        </RelativeLayout>
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rating_container"
+            android:layout_marginTop="4dp"
+            android:text="Salmon Salad"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginTop="2dp"
+            android:text="Baked salmon fish"
+            android:textColor="@android:color/darker_gray" />
+
+        <!-- Favorite Icon -->
+        <ImageView
+            android:id="@+id/favorite_icon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/hart" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
